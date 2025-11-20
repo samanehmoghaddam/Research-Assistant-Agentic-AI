@@ -1,6 +1,6 @@
 # 🚀 ReLitAgent — Research Literature Retrieval Agent
 
-ReLitAgent is an agentic AI system that helps researchers recall relevant concepts, retrieve supporting passages from previously-read papers, and extract accurate citations while writing.  
+ReLitAgent is an agentic AI system that helps you as a researcher recall relevant concepts, retrieve supporting passages from previously-read papers, and extract accurate citations while writing.  
 It ingests PDFs, embeds and indexes them, and uses semantic search plus an LLM-based reasoning agent to surface the most relevant excerpts.
 
 ---
