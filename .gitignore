@@ -1,0 +1,101 @@
+# -----------------------------
+# Python cache & bytecode
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.env
+.venv/
+venv/
+ENV/
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+*.env
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -----------------------------
+# OS generated files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# IDE / Editor files
+# -----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+# FAISS / vector store outputs
+# -----------------------------
+data/vector_store/
+data/cache/
+*.faiss
+*.pkl
+*.npy
+
+# -----------------------------
+# PDF ingestion outputs
+# -----------------------------
+data/pdfs/
+data/tmp/
+
+# -----------------------------
+# Build artifacts
+# -----------------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------------
+# Streamlit cache
+# -----------------------------
+.streamlit/
+
+# -----------------------------
+# Model artifacts
+# -----------------------------
+models/
+*.bin
+*.pt
+*.ckpt
+
+# -----------------------------
+# Local user files
+# -----------------------------
+*.local
+*.tmp
+*.bak
+*.swp
+
+# -----------------------------
+# General large binary exclusion
+# -----------------------------
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
